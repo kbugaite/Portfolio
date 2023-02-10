@@ -1,3 +1,250 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&display=swap');
+
+/* Navbar styling */
+.navbar {
+    position:fixed;
+    background-color: #3A7D44;
+    height: 70px;
+}
+.navbar-brand {
+    color: #EAEBED!important;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2em!important;
+}
+.navbar-brand:hover {
+    color: #A3BAC3!important;
+    font-size: 2.1em!important;
+    transition: 1.05s;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(235, 237, 233)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: #EAEBED;
+  } 
+  .custom-toggler:hover {
+    font-size: 1.5em!important;
+    transition: 1.05s;
+  }
+
+   /* Offcanvas - dynamic navbar element on the right styling */
+  .offcanvas-title {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.35em!important;
+  }
+   .offcanvas-header {
+    background-color: #2a8475;
+    color: #EAEBED;
+  }
+  .offcanvas-header:hover {
+    background-color: #559e60;
+    color: #2B2C2B;
+    font-size: 1.1em!important;
+    transition: 1.05s;
+  }
+  .btn-close {
+    color: #EAEBED!important;
+  }
+  .btn-close:hover {
+    background-color: #EAEBED!important;
+  }
+  .offcanvas-body {
+    background-image: url("262.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 1rem 1rem;
+  }
+  .myClassTop {
+    border-radius: 1em 1em 0 0;
+  }
+  .myClassBottom {
+    border-radius: 0 0 1em 1em;
+  }
+  .nav-link {
+    background-color: #3A7D44!important;
+    opacity: 0.9;
+    color: #EAEBED!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+  .nav-link:hover {
+    background-color: #559e60!important;
+    color: #2B2C2B!important;
+    font-size: 1.09em!important;
+    transition: 0.85s;
+  }
+/* Dropdown - element on hover styling */
+  .show {
+    background-color: #559e60!important;
+  }
+  .dropdown-item {
+    background-color: #559e60!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+  .dropdown-item:hover {
+    background-color: #3A7D44!important;
+    color: #EAEBED!important;
+    font-size: 1.09em!important;
+    transition: 0.85s;
+  }
+/* Jumbotron - Styling the main part of the page */
+.jumbotron {
+    margin-top: 70px;
+    background-color: #006989;
+    padding: 10em;
+    text-align: center;
+    color: #EAEBED;
+    background-image: url("images\maria-orlova-Q3Ea7QQQ6MA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.display-4 {
+    color: #A3BAC3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500!important;
+}
+.display-4:hover {
+    color: #EAEBED;
+}
+.my-4 {
+    color: #A3BAC3;
+}
+.introButton {
+    margin-top: 3em;
+    background-color: #3A7D44!important;
+    color: #EAEBED!important;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.introButton:hover {
+    background-color: #559e60!important;
+    color: #A3BAC3!important;
+    font-size: 1.05em!important;
+    transition: 1.05s;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 1.25em;
+}
+/* Content header 2 styling */
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 500;
+    color: #006989!important;
+}
+/* Icons styling */
+.skillIcons {
+    height: 6em;
+    width: auto;
+
+}
+.skillIcons:hover {
+    -webkit-animation: rotation 0.85s  linear;
+}
+
+@-webkit-keyframes rotation {
+        from {
+                -webkit-transform: rotate(0deg);
+        }
+        to {
+                -webkit-transform: rotate(360deg);
+        }
+
+}
+/* Card styling options */
+.card {
+    background-color: #A3BAC3!important;
+    color: #2B2C2B;
+}
+.card-img-top:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.cardsLink {
+    color: #006989!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.cardsLink:hover {
+    color: #559e60!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.cardsLink:visited:hover {
+    color: #559e60!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.cardsLink:visited {
+    color: #3A7D44!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+/* Footer element styles */
+.page-footer {
+    background-color: #006989;
+    color: #EAEBED;
+    padding: 1em;
+    text-align: center;
+}
+.footer-copyright {
+    background-color: #006989;
+    color: #EAEBED;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.socMediaLink{
+    font-size: 1.35em;
+    font-family: 'Montserrat', sans-serif;
+}
+.socMediaLink a{
+    color: #A3BAC3!important;
+}
+.socMediaLink:hover a{
+    color: #559e60!important;
+    transition: 1.25s;
+}
+.githubLink {
+    color: #A3BAC3!important;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.githubLink:hover {
+    color: #559e60!important;
+    font-size: 1.05em!important;
+    transition: 1s;
+}
+.contactInfoParag {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #A3BAC3;
+}
+.contactBtn {
+    background-color: #3A7D44!important;
+    color: #EAEBED!important;
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 1.1em!important;
+}
+.contactBtn:hover {
+    background-color: #559e60!important;
+    color: #EAEBED!important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.15em!important;
+    transition: 0.75s;
+}
+/* Individual project pages styling */
+.projectDescription {
+    margin-top: 4.5em;
+}
+.projectImage {
+    width: 100%;
+    height: auto;
+}
+.projectText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
 }
