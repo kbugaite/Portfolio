@@ -96,7 +96,7 @@
     padding: 10em;
     text-align: center;
     color: #EAEBED;
-    background-image: url("images\maria-orlova-Q3Ea7QQQ6MA-unsplash.jpg");
+    background-image: url("maria-orlova-Q3Ea7QQQ6MA-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -113,6 +113,8 @@
 }
 .introButton {
     margin-top: 3em;
+    padding-left: 0.25!important;
+    padding-right: 1.5em!important;
     background-color: #3A7D44!important;
     color: #EAEBED!important;
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -142,6 +144,14 @@ h2 {
 .skillIcons:hover {
     -webkit-animation: rotation 0.85s  linear;
 }
+.iconsFooter {
+  height: 4.25em;
+  width: auto;
+}
+.iconsFooter:hover {
+  height: 4.4em;
+  width: auto;
+}
 
 @-webkit-keyframes rotation {
         from {
@@ -154,7 +164,7 @@ h2 {
 }
 /* Card styling options */
 .card {
-    background-color: #A3BAC3!important;
+    background-color: #EAEBED!important;
     color: #2B2C2B;
 }
 .card-img-top:hover {
@@ -165,23 +175,30 @@ h2 {
     color: #006989!important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    text-decoration: none;
 }
 .cardsLink:hover {
-    color: #559e60!important;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    opacity: 0.7;
+    opacity: 0.85;
 }
-.cardsLink:visited:hover {
-    color: #559e60!important;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    opacity: 0.7;
+.buttonSVG {
+  height: 1.25em!important;
+}
+.buttonText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.9em!important;
 }
 .cardsLink:visited {
     color: #3A7D44!important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+}
+.cardButton {
+  padding: 0 1.25em 0 1.25em!important;
+  background-color: #006989!important;
+  color: #EAEBED!important;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.15em!important;
 }
 /* Footer element styles */
 .page-footer {
@@ -222,6 +239,11 @@ h2 {
     font-weight: 500;
     color: #A3BAC3;
 }
+.contactInfoParag:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #559e60;
+}
 .contactBtn {
     background-color: #3A7D44!important;
     color: #EAEBED!important;
@@ -247,4 +269,8 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1em;
+}
+iframe {
+    width: 100%;
+    height: 100%;
 }

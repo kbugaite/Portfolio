@@ -14,7 +14,7 @@
     <!-- NAVBAR SECTION -->
     <nav class="navbar fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Kristina Bugaite</a>
+          <a class="navbar-brand" href="index.html">Kristina Bugaite</a>
           <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -71,16 +71,24 @@
                 <br>
                 It was created in a group as a part of my Web Development course with Code First Girls.
               </p>
-              <p class="projectText text-justify p-2 m-2">GitHub link to Superfoods: 
-                <a class="cardsLink" href="https://github.com/kbugaite/Superfoods-Final-project" target="_blank">
-                    <br>https://github.com/kbugaite/Superfoods-Final-project
-                </a>
-            </p>
-            <p class="projectText text-justify p-2 m-2">GitHub Pages - Superfoods:
-                <a class="cardsLink" href="https://github.com/kbugaite" target="_blank">
-                    <br>to be added later
-                </a>
-            </p>
+              <div class="row">
+                <div class="col mt-3 text-center input-group-append">
+                    <a class="cardsLink" href="https://github.com/kbugaite/Superfoods-Final-project" target="_blank">
+                        <button class="cardButton btn btn-sm d-inline-flex flex-row m-2" type="button">
+                            <img class="buttonSVG justify-content-left m-auto" src = "images\github-svgrepo-com-white.svg" alt="GitHUB icon"/>
+                            <p class="buttonText justify-content-right pt-3">GitHub</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="col mt-3 text-center input-group-append">
+                    <a class="cardsLink" href="https://github.com/kbugaite/Superfoods-Final-project" target="_blank">
+                        <button class="cardButton btn btn-sm d-inline-flex flex-row m-2" type="button">
+                            <img class="buttonSVG justify-content-center m-auto" src = "images\server-svgrepo-com.svg" alt="Cloud icon"/>
+                            <p class="buttonText justify-content-right pt-3 text-nowrap">none yet</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
             </div>
           </div>
         </div>
@@ -92,17 +100,23 @@
                 <div class="row">
                       <div class="col-md-3 mx-auto">
                         <h5 class="font-weight-bold text-uppercase mt-4 mb-4">Find me on social media:</h5>
-                        <ul class="list-unstyled">
-                          <li class="socMediaLink">
-                            <a href="https://github.com/kbugaite" target="_blank">GitHub</a>
-                          </li>
-                          <li class="socMediaLink">
-                            <a href="https://www.linkedin.com/in/kristinabugaite/" target="_blank">LinkedIn</a>
-                          </li>
-                          <li class="socMediaLink">
-                            <a href="https://www.codewars.com/users/Kbugaite" target="_blank">CodeWars</a>
-                          </li>
-                        </ul>
+                        <div class="row list-unstyled">
+                          <div class="col">
+                              <a href="https://github.com/kbugaite" target="_blank">
+                                  <img class="iconsFooter m-2" src = "images\github-svgrepo-com.svg" alt="GitHUB icon"/>
+                              </a>
+                          </div>
+                          <div class="col">
+                              <a href="https://www.linkedin.com/in/kristinabugaite/" target="_blank">
+                                  <img class="iconsFooter m-2" src = "images\linkedin-round-svgrepo-com.svg" alt="LinkedIn icon"/>
+                              </a>
+                          </div>
+                          <div class="col">
+                              <a href="https://www.codewars.com/users/Kbugaite" target="_blank">
+                                  <img class="iconsFooter m-2" src = "images\codewars-svgrepo-com.svg" alt="Codewars icon"/>
+                              </a>
+                          </div>
+                      </div>
                         <h5 class="font-weight-bold text-uppercase mt-4 mb-4">My contact details:</h5>
                           <p class="contactInfoParag">+447827773480</p>
                           <p class="contactInfoParag">kbugaite@gmail.com</p>
