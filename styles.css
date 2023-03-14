@@ -163,6 +163,10 @@ h2 {
 
 }
 /* Card styling options */
+.cardContainer {
+height: 60vh;
+}
+
 .card {
     background-color: #EAEBED!important;
     color: #2B2C2B;
@@ -194,11 +198,11 @@ h2 {
     font-weight: 500;
 }
 .cardButton {
-  padding: 0 1.25em 0 1.25em!important;
+  padding: 0 1em 0 1em!important;
   background-color: #006989!important;
   color: #EAEBED!important;
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 1.15em!important;
+  font-size: 1.1em!important;
 }
 /* Footer element styles */
 .page-footer {
