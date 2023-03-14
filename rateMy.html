@@ -61,21 +61,27 @@
 
         <!-- ABOUT ME SECTION -->
         <div class="container projectDescription">
-          <h2 class="text-center fs-1 p-5">Hobby website - soapmaking</h2>
+          <h2 class="text-center fs-1 p-5">Social website - R8.it</h2>
             <div class="row">
               <div class="col-lg-8 col-md-12">
-                <iframe src="https://kbugaite.github.io/hobby-website/" title="Soapmaking website"></iframe>
+                <iframe src="https://jamesmdesign.github.io/rate-my/" title="Social website project"></iframe>
               </div>
               <div class="col-lg-4 col-md-12">
                 <h2 class="text-center fs-4 p-2">Process</h2>
-              <p class="projectText text-justify p-2 m-2">This website is dedicated to one of my hobbies - soapmaking. It was made using HTML/CSS and Bootstrap.
-                I've used Bootstrap elements to make it responsive and easier to style.
+              <p class="projectText text-justify p-2 m-2">This project waas built by using React and 
+                React-Bootstrap that allows its users to upload their image with a description for 
+                it to be rated positive or negative by other users. It does not have a backend and
+                 instead it stores posts in local storage. Website’s functionality is split into different
+                  components: addPost.js defines the form where user can upload their content and gives a toastr
+                   message once the post has been posted, view.js maps through all of the current posts and adds
+                    them into the homepage, eachCard.js keeps track of like/dislike count by useState React hook
+                     and navigation.js adds a navigation bar with our team’s logo.
                 <br>
-                It was created as a part of my Web Development course at Developer Academy School.
+                It was created as a part of my Web Development course at Developer Academy School as a pair-programming group project.
               </p>
               <div class="row">
                 <div class="col mt-3 text-center input-group-append">
-                    <a class="cardsLink" href="https://github.com/kbugaite/hobby-website" target="_blank">
+                    <a class="cardsLink" href="https://github.com/JamesMDesign/rate-my" target="_blank">
                         <button class="cardButton btn btn-sm d-inline-flex flex-row m-2" type="button">
                             <img class="buttonSVG justify-content-left m-auto" src = "images\github-svgrepo-com-white.svg" alt="GitHUB icon"/>
                             <p class="buttonText justify-content-right pt-3">GitHub</p>
@@ -83,7 +89,7 @@
                     </a>
                 </div>
                 <div class="col mt-3 text-center input-group-append">
-                    <a class="cardsLink" href="https://kbugaite.github.io/hobby-website/" target="_blank">
+                    <a class="cardsLink" href="https://jamesmdesign.github.io/rate-my/" target="_blank">
                         <button class="cardButton btn btn-sm d-inline-flex flex-row m-2" type="button">
                             <img class="buttonSVG justify-content-center m-auto" src = "images\server-svgrepo-com.svg" alt="Cloud icon"/>
                             <p class="buttonText justify-content-right pt-3 text-nowrap">Live page</p>

@@ -61,29 +61,34 @@
 
         <!-- ABOUT ME SECTION -->
         <div class="container projectDescription">
-          <h2 class="text-center fs-1 p-5">Hobby website - soapmaking</h2>
+          <h2 class="text-center fs-1 p-5">Weather application</h2>
             <div class="row">
               <div class="col-lg-8 col-md-12">
-                <iframe src="https://kbugaite.github.io/hobby-website/" title="Soapmaking website"></iframe>
+                <img class="projectImage mt-3" src="images\weather_app.jpg" alt="Weather application">
               </div>
               <div class="col-lg-4 col-md-12">
                 <h2 class="text-center fs-4 p-2">Process</h2>
-              <p class="projectText text-justify p-2 m-2">This website is dedicated to one of my hobbies - soapmaking. It was made using HTML/CSS and Bootstrap.
-                I've used Bootstrap elements to make it responsive and easier to style.
+              <p class="projectText text-justify p-2 m-2">Application that shows its users 5 weather cards
+                 for different days in their chosen location built by using the OpenWeather API. It was built by
+                  utilising React components and useState with useEffect hooks. In WeatherCard.js we defined each
+                   day’s main weather statistics we got from the API and in App.js we map through each weather card
+                    and visualise it together with other elements such as a navigation bar defined in 
+                    NavigationBar.js. ApiClient.js uses axios to connect to the API, for which we used dotenv module
+                     to hide sensitive information (such as our API key) so the app is not fully functional for this reason.
                 <br>
-                It was created as a part of my Web Development course at Developer Academy School.
+                It was created as a part of my Web Development course at Developer Academy School as a pair-programming group project.
               </p>
               <div class="row">
-                <div class="col mt-3 text-center input-group-append">
-                    <a class="cardsLink" href="https://github.com/kbugaite/hobby-website" target="_blank">
+                <div class="col mt-1 text-center input-group-append">
+                    <a class="cardsLink" href="https://github.com/kbugaite/Weather-application-React" target="_blank">
                         <button class="cardButton btn btn-sm d-inline-flex flex-row m-2" type="button">
                             <img class="buttonSVG justify-content-left m-auto" src = "images\github-svgrepo-com-white.svg" alt="GitHUB icon"/>
                             <p class="buttonText justify-content-right pt-3">GitHub</p>
                         </button>
                     </a>
                 </div>
-                <div class="col mt-3 text-center input-group-append">
-                    <a class="cardsLink" href="https://kbugaite.github.io/hobby-website/" target="_blank">
+                <div class="col mt-1 text-center input-group-append">
+                    <a class="cardsLink" href="https://kbugaite.github.io/Weather-application-React/" target="_blank">
                         <button class="cardButton btn btn-sm d-inline-flex flex-row m-2" type="button">
                             <img class="buttonSVG justify-content-center m-auto" src = "images\server-svgrepo-com.svg" alt="Cloud icon"/>
                             <p class="buttonText justify-content-right pt-3 text-nowrap">Live page</p>
