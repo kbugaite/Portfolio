@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&display=swap');
 
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Navbar styling */
 .navbar {
     position:fixed;
@@ -14,7 +21,7 @@
 .navbar-brand:hover {
     color: #A3BAC3!important;
     font-size: 2.1em!important;
-    transition: 1.05s;
+    transition: 0.55s;
 }
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(235, 237, 233)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -25,7 +32,7 @@
   } 
   .custom-toggler:hover {
     font-size: 1.5em!important;
-    transition: 1.05s;
+    transition: 0.55s;
   }
 
    /* Offcanvas - dynamic navbar element on the right styling */
@@ -48,6 +55,7 @@
   }
   .btn-close:hover {
     background-color: #EAEBED!important;
+    transition-duration: 0.35s;
   }
   .offcanvas-body {
     background-image: url("262.jpg");
@@ -72,7 +80,7 @@
     background-color: #559e60!important;
     color: #2B2C2B!important;
     font-size: 1.09em!important;
-    transition: 0.85s;
+    transition: 0.55s;
   }
 /* Dropdown - element on hover styling */
   .show {
@@ -87,7 +95,7 @@
     background-color: #3A7D44!important;
     color: #EAEBED!important;
     font-size: 1.09em!important;
-    transition: 0.85s;
+    transition: 0.55s;
   }
 /* Jumbotron - Styling the main part of the page */
 .jumbotron {
@@ -107,6 +115,7 @@
 }
 .display-4:hover {
     color: #EAEBED;
+    transition-duration: 0.35s;
 }
 .my-4 {
     color: #A3BAC3;
@@ -123,7 +132,7 @@
     background-color: #559e60!important;
     color: #A3BAC3!important;
     font-size: 1.05em!important;
-    transition: 1.05s;
+    transition: 0.55s;
 }
 p {
     font-family: 'Montserrat', sans-serif;
@@ -143,14 +152,19 @@ h2 {
 }
 .skillIcons:hover {
     -webkit-animation: rotation 0.85s  linear;
+    transition-duration: 0.35s;
 }
 .iconsFooter {
-  height: 4.25em;
+  height: 4em;
   width: auto;
+  /* Filter allows changing SVG colours when it is imported as an Image. Colour can be edited on 'https://isotropic.co/tool/hex-color-to-css-filter/' */
+  filter: invert(95%) sepia(9%) saturate(34%) hue-rotate(182deg) brightness(100%) contrast(89%);
 }
 .iconsFooter:hover {
   height: 4.4em;
   width: auto;
+  transition-duration: 0.35s;
+  filter: invert(100%) sepia(7%) saturate(120%) hue-rotate(2deg) brightness(118%) contrast(100%);
 }
 
 @-webkit-keyframes rotation {
@@ -163,9 +177,6 @@ h2 {
 
 }
 /* Card styling options */
-.cardContainer {
-height: 60vh;
-}
 
 .card {
     background-color: #EAEBED!important;
@@ -173,7 +184,7 @@ height: 60vh;
 }
 .card-img-top:hover {
     opacity: 0.8;
-    transition: 0.5s;
+    transition: 0.55s;
 }
 .cardsLink {
     color: #006989!important;
@@ -182,7 +193,7 @@ height: 60vh;
     text-decoration: none;
 }
 .cardsLink:hover {
-    opacity: 0.85;
+    opacity: 0.55;
 }
 .buttonSVG {
   height: 1.25em!important;
@@ -203,12 +214,13 @@ height: 60vh;
   color: #EAEBED!important;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 1.1em!important;
+/*   position: relative; */
 }
 /* Footer element styles */
 .page-footer {
     background-color: #006989;
     color: #EAEBED;
-    padding: 1em;
+    padding: none;
     text-align: center;
 }
 .footer-copyright {
@@ -227,7 +239,7 @@ height: 60vh;
 }
 .socMediaLink:hover a{
     color: #559e60!important;
-    transition: 1.25s;
+    transition: 0.55s;
 }
 .githubLink {
     color: #A3BAC3!important;
@@ -236,7 +248,7 @@ height: 60vh;
 .githubLink:hover {
     color: #559e60!important;
     font-size: 1.05em!important;
-    transition: 1s;
+    transition: 0.55s;
 }
 .contactInfoParag {
     font-family: 'Montserrat', sans-serif;
@@ -247,19 +259,25 @@ height: 60vh;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   color: #559e60;
+  transition-duration: 0.55s;
 }
+.contactButton {
+  text-align: center;
+}
+
 .contactBtn {
     background-color: #3A7D44!important;
     color: #EAEBED!important;
     font-family: 'Montserrat', sans-serif!important;
     font-size: 1.1em!important;
+    margin: 0 auto;
 }
 .contactBtn:hover {
     background-color: #559e60!important;
     color: #EAEBED!important;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.15em!important;
-    transition: 0.75s;
+    transition: 0.55s;
 }
 /* Individual project pages styling */
 .projectDescription {
